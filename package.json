@@ -5,6 +5,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack --mode=production",
+		"build-dev": "webpack --mode=development",
 		"watch": "webpack --mode=development --watch --progress"
 	},
 	"author": "workerB",
